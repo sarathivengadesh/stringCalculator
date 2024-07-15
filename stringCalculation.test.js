@@ -15,4 +15,7 @@ describe('String Calculator', () => {
      test('Pass 2 number as string in params to get add value of all',()=>{
         expect(add("5,6")).toBe(11);
      })
+     test('Pass multiple as string in params to get add value of all',()=>{
+        expect(add("5656")).toBe(22);
+     })
 });
