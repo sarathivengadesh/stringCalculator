@@ -18,4 +18,7 @@ describe('String Calculator', () => {
      test('Pass multiple as string in params to get add value of all',()=>{
         expect(add("5656")).toBe(22);
      })
+     test('handle new lines between numbers',()=>{
+        expect(add("1\n2,3")).toBe(6);
+     })
 });
