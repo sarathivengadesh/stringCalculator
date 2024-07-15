@@ -8,4 +8,7 @@ describe('String Calculator', () => {
     test('Pass Empty string as params', () => { 
         expect(add(" ")).toBe(0);
      });
+     test('Pass one Number as string in params', () => { 
+        expect(add("3")).toBe(3);
+     });
 });
