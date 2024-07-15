@@ -1,6 +1,7 @@
 
-  export const add=(value:string):number=>{
+   const add=(value)=>{
   if(!value) return 0;
-  return 0
+  return 0;
 }
 
+module.exports = { add };

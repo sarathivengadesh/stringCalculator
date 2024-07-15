@@ -1,10 +1,11 @@
+const { add } = require('./stringCalculation');
 
+// 1 Pass Empty string as params to get 0
+// 2 Pass number as string in params to get addtional number value
+// 3 Pass multiple number as string in params to get add value of all
 
-const {add} = require("./stringCalculation");
-
-
-
-// 1 Test add method as argumant as Empty string
-// 2 test Method as numer as string in a params
-// 3 test the multiple numbers as a string to pass as a params
-
+describe('String Calculator', () => {
+    test('Pass Empty string as params', () => { 
+        expect(add(" ")).toBe(0);
+     });
+});
